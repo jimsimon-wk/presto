@@ -182,8 +182,8 @@
         <module>presto-clickhouse</module>
         <module>presto-hive-function-namespace</module>
         <module>presto-delta</module>
-        <module>presto-grpc-api</module>
-        <module>presto-grpc-testing-udf-server</module>
+<!--        <module>presto-grpc-api</module>-->
+<!--        <module>presto-grpc-testing-udf-server</module>-->
         <module>presto-lark-sheets</module>
         <module>presto-test-coverage</module>
         <module>presto-hudi</module>
@@ -1185,6 +1185,12 @@
                 <groupId>com.microsoft.sqlserver</groupId>
                 <artifactId>mssql-jdbc</artifactId>
                 <version>7.0.0.jre8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.fusesource.jansi</groupId>
+                <artifactId>jansi</artifactId>
+                <version>1.8</version>
             </dependency>
 
             <dependency>
